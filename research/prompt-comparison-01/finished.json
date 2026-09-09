@@ -1,0 +1,123 @@
+{
+  "status": "complete",
+  "runs": [
+    {
+      "name": "prompt01-screen-original-s801",
+      "split": "screen",
+      "style": "original",
+      "seed": 801,
+      "valid": true,
+      "time_to_18_s": 168.11007425899152,
+      "solved": 23,
+      "outcome": "exhausted",
+      "completed_response_tokens": 273306,
+      "grader_busy_s": 87.0610991450958,
+      "idle_verified": true
+    },
+    {
+      "name": "prompt01-screen-direct-s801",
+      "split": "screen",
+      "style": "direct",
+      "seed": 801,
+      "valid": true,
+      "time_to_18_s": 158.15892517194152,
+      "solved": 25,
+      "outcome": "exhausted",
+      "completed_response_tokens": 268417,
+      "grader_busy_s": 90.0642738364404,
+      "idle_verified": true
+    },
+    {
+      "name": "prompt01-screen-checkpoint-s801",
+      "split": "screen",
+      "style": "checkpoint",
+      "seed": 801,
+      "valid": true,
+      "time_to_18_s": 157.60673065599985,
+      "solved": 23,
+      "outcome": "exhausted",
+      "completed_response_tokens": 252976,
+      "grader_busy_s": 84.05748487135861,
+      "idle_verified": true
+    },
+    {
+      "name": "prompt01-screen-answer_first-s801",
+      "split": "screen",
+      "style": "answer_first",
+      "seed": 801,
+      "valid": true,
+      "time_to_18_s": 111.26491724001244,
+      "solved": 24,
+      "outcome": "exhausted",
+      "completed_response_tokens": 228526,
+      "grader_busy_s": 87.06320857291576,
+      "idle_verified": true
+    },
+    {
+      "name": "prompt01-evaluation-original-s811",
+      "split": "evaluation",
+      "style": "original",
+      "seed": 811,
+      "valid": true,
+      "time_to_18_s": 200.35638666094746,
+      "solved": 19,
+      "outcome": "exhausted",
+      "completed_response_tokens": 304402,
+      "grader_busy_s": 90.06113006093074,
+      "idle_verified": true
+    },
+    {
+      "name": "prompt01-evaluation-answer_first-s811",
+      "split": "evaluation",
+      "style": "answer_first",
+      "seed": 811,
+      "valid": true,
+      "time_to_18_s": 189.72872877295595,
+      "solved": 19,
+      "outcome": "exhausted",
+      "completed_response_tokens": 282448,
+      "grader_busy_s": 84.05651474208571,
+      "idle_verified": true
+    },
+    {
+      "name": "prompt01-evaluation-answer_first-s813",
+      "split": "evaluation",
+      "style": "answer_first",
+      "seed": 813,
+      "valid": true,
+      "time_to_18_s": 183.41048629698344,
+      "solved": 18,
+      "outcome": "exhausted",
+      "completed_response_tokens": 273602,
+      "grader_busy_s": 87.05908174568322,
+      "idle_verified": true
+    },
+    {
+      "name": "prompt01-evaluation-original-s813",
+      "split": "evaluation",
+      "style": "original",
+      "seed": 813,
+      "valid": true,
+      "time_to_18_s": 228.44806567800697,
+      "solved": 18,
+      "outcome": "exhausted",
+      "completed_response_tokens": 303650,
+      "grader_busy_s": 90.06424131803215,
+      "idle_verified": true
+    }
+  ],
+  "started_utc": "2026-09-09T14:16:47.377978+00:00",
+  "hashes": {
+    "src/prompt_solver.py": "560ace4f758748819b76bf11bd3ce2786482f309768d2f50ea0d94924998d00d",
+    "scripts/prompt_comparison.py": "5a6a741db80e105c977d9b6f834a0e5b16c0a2662edb17db0f309080b85191c6",
+    "docs/prompt-comparison-protocol.md": "26b061102302f2dfe4df32c40b97ccfc81e3d00331b19fe3224251d29b2df1e3"
+  },
+  "active_run": null,
+  "selection": {
+    "selected": "answer_first",
+    "rule": "fastest target-reaching variant faster than successful original",
+    "frozen_utc": "2026-09-09T14:33:15.934898+00:00"
+  },
+  "default_grader_restored": true,
+  "finished_utc": "2026-09-09T14:51:56.646075+00:00"
+}

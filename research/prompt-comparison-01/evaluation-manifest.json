@@ -1,0 +1,14 @@
+{
+  "repository": "allenai/aime-2022-2025",
+  "revision": "73e1eba765ad5847cdb5d1e2e7aaf7b22b585798",
+  "year": 2022,
+  "count": 30,
+  "source_sha256": "cc1d76180fa27dc06cc0060ff03010c5f41331ca1c70cc9247e87e8eef0c5a0d",
+  "questions_sha256": "f90d10f8a9dc7535c5209f02f1644dd7b51d371a4e2433a26a2b3612f6af7649",
+  "overlap": {
+    "data/questions.jsonl": 0,
+    "research/fresh-comparison-data/dev-questions.jsonl": 0,
+    "research/fresh-validation-01/dev-questions.jsonl": 0,
+    "research/fresh-validation-01/holdout-questions.jsonl": 0
+  }
+}

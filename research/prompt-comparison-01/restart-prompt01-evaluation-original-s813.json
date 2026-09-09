@@ -1,0 +1,8 @@
+{
+  "preceding_run": "prompt01-evaluation-answer_first-s813",
+  "old_pid": 212703,
+  "old_command": "/home/azureuser/aime-speedrun/.venv/bin/python3 /home/azureuser/aime-speedrun/.venv/bin/vllm serve WeiboAI/VibeThinker-3B --revision 77bd2cced09193c8b9a59a32bd8577bbd1f3e01c --served-model-name aime-model --host 127.0.0.1 --port 8000 --dtype bfloat16 --max-model-len 32768 --max-num-seqs 32 --max-num-batched-tokens 8192 --gpu-memory-utilization 0.90 --generation-config vllm --disable-log-requests --no-enable-prefix-caching ",
+  "new_pid": 213266,
+  "new_command": "/home/azureuser/aime-speedrun/.venv/bin/python3 /home/azureuser/aime-speedrun/.venv/bin/vllm serve WeiboAI/VibeThinker-3B --revision 77bd2cced09193c8b9a59a32bd8577bbd1f3e01c --served-model-name aime-model --host 127.0.0.1 --port 8000 --dtype bfloat16 --max-model-len 32768 --max-num-seqs 32 --max-num-batched-tokens 8192 --gpu-memory-utilization 0.90 --generation-config vllm --disable-log-requests --no-enable-prefix-caching ",
+  "idle_verified": true
+}

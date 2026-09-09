@@ -1,0 +1,34 @@
+{
+  "status": "audited",
+  "selected": "answer_first",
+  "evaluation_pairs": [
+    {
+      "seed": 811,
+      "baseline_s": 200.35638666094746,
+      "candidate_s": 189.72872877295595,
+      "baseline_correct": 19,
+      "candidate_correct": 19,
+      "speedup": 0.05304376898140084
+    },
+    {
+      "seed": 813,
+      "baseline_s": 228.44806567800697,
+      "candidate_s": 183.41048629698344,
+      "baseline_correct": 18,
+      "candidate_correct": 18,
+      "speedup": 0.19714581188226432
+    }
+  ],
+  "mean_paired_speedup": 0.12509479043183258,
+  "all_eight_trace_audits_pass": true,
+  "matched_config_orders_fresh_starts": true,
+  "only_prompt_function_changed": true,
+  "exact_overlap_zero": true,
+  "selection_before_evaluation": true,
+  "default_grader_restored": true,
+  "export_timing_evidence": {
+    "selection_mtime_unix": 1788964395,
+    "question_export_mtime_unix": 1788964396
+  },
+  "elapsed_s": 2109.268097
+}

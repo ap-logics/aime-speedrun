@@ -1,0 +1,3 @@
+# Preserve recorded source/evidence bytes; shell entry points use LF.
+* -text
+*.sh text eol=lf

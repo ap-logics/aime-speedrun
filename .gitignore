@@ -1,0 +1,119 @@
+# Credentials and machine-local settings
+.ssh-known-hosts*
+*.pem
+*.key
+keys.md
+.env
+.env.*
+!.env.example
+/.vscode/
+/.idea/
+/.codex/
+/.agents/
+
+# Python environments and caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+/build/
+/dist/
+
+# Downloaded models, private grader files and local runtime data
+/models/
+/data/
+/private-grader/
+*.sif
+*.safetensors
+/tmp/
+/logs/
+
+# Generated delivery bundles and duplicate PDF builds
+/output/submission/
+/output/**/*.zip
+/output/pdf/*.log
+/output/pdf/report.pdf
+/output/pdf/exploration.pdf
+
+# LaTeX build intermediates
+*.aux
+*.nav
+*.snm
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.xdv
+*.vrb
+/output/latex/*.log
+/output/latex/*.out
+
+# Recreated notebook exports; keep the notebook itself
+/notebooks/outputs/
+
+# Editor and OS temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep source, archived scripts, protocols and recorded experiment evidence.
+# Keep output/pdf/aime-speedrun-report.pdf and output/pdf/slides.pdf.
+
+# Superseded report source; canonical source is report.tex
+/output/latex/exploration.tex
+
+# Keep presentation/report drafts local; slides await explicit approval.
+/output/
+
+# Generated research chart; values and reproduction code are retained.
+/research/clean-comparison-resumed-01/comparison.pdf
+
+# Full research history stays on this machine.
+/archive/
+/notebooks/
+/SUBMISSION.md
+/docs/*
+!/docs/a100-requirements.lock.txt
+!/docs/code-map.md
+!/docs/prompt-comparison-protocol.md
+!/docs/prompt-comparison-results.md
+!/docs/reproduction.md
+!/docs/time-log.md
+/scripts/*
+!/scripts/audit_runs.py
+!/scripts/export_questions.py
+!/scripts/start-a100-model.sh
+!/scripts/review_results.py
+/tests/*
+!/tests/test_speedrun.py
+!/tests/test_cli.py
+/experiments/*
+!/experiments/prompt01-*/
+/execution-evidence/*
+!/execution-evidence/prompt01-*/
+/execution-evidence/prompt01-*/*
+!/execution-evidence/prompt01-*/profile.json
+/research/*
+!/research/prompt-comparison-01/
+!/research/prompt-experiment-code/
+/research/prompt-comparison-01/*.log
+/research/prompt-comparison-01/state.json
+/research/prompt-experiment-code/*
+!/research/prompt-experiment-code/prompt_comparison.py
+!/research/prompt-experiment-code/restart_prompt_trial.py
+!/research/prompt-experiment-code/profile-prompt.py
+!/research/prompt-experiment-code/run-prompt-experiment.sh
+!/research/prompt-experiment-code/export_prompt_evaluation.py
+
+!/tests/test_prompt_selection.py

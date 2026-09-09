@@ -1,0 +1,61 @@
+{
+  "utc": "2026-09-09T14:47:11.226551+00:00",
+  "models": {
+    "object": "list",
+    "data": [
+      {
+        "id": "aime-model",
+        "object": "model",
+        "created": 1788965231,
+        "owned_by": "vllm",
+        "root": "WeiboAI/VibeThinker-3B",
+        "parent": null,
+        "max_model_len": 32768,
+        "permission": [
+          {
+            "id": "modelperm-ce1e972f37574295a49a69d2307b6b17",
+            "object": "model_permission",
+            "created": 1788965231,
+            "allow_create_engine": false,
+            "allow_sampling": true,
+            "allow_logprobs": true,
+            "allow_search_indices": false,
+            "allow_view": true,
+            "allow_fine_tuning": false,
+            "organization": "*",
+            "group": null,
+            "is_blocking": false
+          }
+        ]
+      }
+    ]
+  },
+  "grader_health": {
+    "ok": true,
+    "n_problems": 30,
+    "index_min": 1,
+    "index_max": 30,
+    "cost_c": 3.0,
+    "queries_so_far": 0
+  },
+  "config": {
+    "model": "aime-model",
+    "concurrency": 30,
+    "max_tokens": 12288,
+    "retry_tokens": 16384,
+    "attempts": 1,
+    "seed": 813,
+    "deadline_s": 600,
+    "stop_at": 30,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "finalize_tokens": 32,
+    "probe_policy": "none",
+    "probe_tokens": 8192,
+    "overlap_probe": 0,
+    "prompt_style": "original",
+    "samples": 1,
+    "queue_policy": "fifo"
+  },
+  "solver_sha256": "560ace4f758748819b76bf11bd3ce2786482f309768d2f50ea0d94924998d00d"
+}
